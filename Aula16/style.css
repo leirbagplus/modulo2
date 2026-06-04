@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+  color: azure;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+.main {
+  background-color: aliceblue;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid gray;
+}
