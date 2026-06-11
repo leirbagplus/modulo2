@@ -1,0 +1,14 @@
+.caixa {
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
+.container {
+  display: flex; /*Muda a forma como se trabalha com os elementos filhos*/
+  flex-direction: row; /*Muda os eixos do display*/
+  justify-content: center; /*Muda a direção no eixo principal*/
+  align-items: center; /*Muda a direção no eixo cruzado*/
+  flex-wrap: wrap; /*Quebra linhas quando não tem mais espaço*/
+  background-color: bisque;
+  height: 400px;
+}
