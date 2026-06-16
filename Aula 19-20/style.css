@@ -8,6 +8,10 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: var(--fundo);
@@ -40,7 +44,9 @@ body {
 /* --------------------------- */
 
 /* Main */
-
+main {
+  flex: 1;
+}
 .cards {
   display: flex;
   justify-content: center;
@@ -76,4 +82,30 @@ body {
 .produtos button:hover {
   color: var(--fundo);
   background-color: var(--cor-principal);
+}
+
+/* --------------------------- */
+
+/* Footer */
+
+footer {
+  background-color: var(--fundo-secundario);
+  color: var(--fundo);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vi;
+}
+
+.redes-sociais img {
+  width: 30px;
+  padding-right: 40px;
+}
+.redes-sociais {
+  display: flex;
+  gap: 20px;
 }
